@@ -10,10 +10,11 @@
 // if you want to use the dark.css theme, enter "dark"
 // otherwise, use the file name without the css extension (important)
 // See available themes here: https://github.com/Nexxed/Gamesense-Themes/tree/master/themes
-// to disable the custom usergroup/username colors, set "replaceColors" to false
+// to enable the custom usergroup/username colors, set "replaceColors" to true
+// to enable the custom username colors for "posted by", set "customPostedByColor" to true
 var theme = "dark";
 var replaceColors = false;
-var customPostedByColor = true;
+var customPostedByColor = false;
 
 var colors = {
     adminColor: "#b4e61e",
