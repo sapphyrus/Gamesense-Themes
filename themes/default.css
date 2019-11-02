@@ -1,38 +1,14 @@
-.pun abbr,
-.pun blockquote,
-.pun cite,
-.pun dd,
-.pun div,
-.pun dl,
-.pun dt,
-.pun fieldset,
-.pun form,
-.pun h1,
-.pun h2,
-.pun h3,
-.pun h4,
-.pun h5,
-.pun img,
-.pun li,
-.pun ol,
-.pun p,
-.pun pre,
-.pun table,
-.pun td,
-.pun th,
-.pun ul {
+.pun abbr,.pun blockquote,.pun cite,.pun dd,.pun div,.pun dl,.pun dt,.pun fieldset,.pun form,.pun h1,.pun h2,.pun h3,.pun h4,.pun h5,.pun img,.pun li,.pun ol,.pun p,.pun pre,.pun table,.pun td,.pun th,.pun ul {
     margin: 0;
     padding: 0;
     border: 0
 }
 
-.pun ol,
-.pun ul {
+.pun ol,.pun ul {
     list-style: none
 }
 
-.pun .clearer,
-.pun .nosize {
+.pun .clearer,.pun .nosize {
     height: 0;
     width: 0;
     line-height: 0;
@@ -40,8 +16,7 @@
     overflow: hidden
 }
 
-.pun .clearb,
-.pun .clearer {
+.pun .clearb,.pun .clearer {
     clear: both
 }
 
@@ -52,19 +27,11 @@
     width: 0
 }
 
-* html .codebox,
-* html .inbox,
-* html .inform,
-* html .pun,
-* html .tclcon {
+* html .codebox,* html .inbox,* html .inform,* html .pun,* html .tclcon {
     height: 1px
 }
 
-.pun,
-.pun .codebox,
-.pun .inbox,
-.pun .inform,
-.pun .tclcon {
+.pun,.pun .codebox,.pun .inbox,.pun .inform,.pun .tclcon {
     min-height: 1px
 }
 
@@ -72,15 +39,7 @@
     clear: left
 }
 
-#brdfooter h2,
-#brdstats .conl dt,
-#brdstats .conr dt,
-#brdstats h2,
-#modcontrols dt,
-#searchlinks dt,
-.pun .required strong span,
-div.postright h3,
-span.closedtext {
+#brdfooter h2,#brdstats .conl dt,#brdstats .conr dt,#brdstats h2,#modcontrols dt,#searchlinks dt,.pun .required strong span,div.postright h3,span.closedtext {
     position: absolute;
     display: block;
     overflow: hidden;
@@ -90,28 +49,19 @@ span.closedtext {
 }
 
 .pun {
-    font: 68.75%/1.4545em Verdana, Helvetica, Arial, sans-serif;
+    font: 68.75%/1.4545em Verdana,Helvetica,Arial,sans-serif;
     line-height: normal;
     padding: 12px 0 12px 0
 }
 
-.pun input,
-.pun legend,
-.pun optgroup,
-.pun samp,
-.pun select,
-.pun table,
-.pun td,
-.pun textarea,
-.pun th {
+.pun input,.pun legend,.pun optgroup,.pun samp,.pun select,.pun table,.pun td,.pun textarea,.pun th {
     font-size: 10px;
-    font-family: verdana, helvetica, arial, sans-serif
+    font-family: verdana,helvetica,arial,sans-serif
 }
 
-.pun code,
-.pun pre {
+.pun code,.pun pre {
     font-size: 1.182em;
-    font-family: consolas, monaco, "bitstream vera sans mono", "courier new", courier, monospace
+    font-family: consolas,monaco,"bitstream vera sans mono","courier new",courier,monospace
 }
 
 .pun pre code {
@@ -133,10 +83,7 @@ span.closedtext {
     color: #888
 }
 
-.pun dl,
-.pun ol,
-.pun p,
-.pun ul {
+.pun dl,.pun ol,.pun p,.pun ul {
     font-size: 11px;
     padding: 3px 0
 }
@@ -152,47 +99,37 @@ span.closedtext {
     padding: 3px 0
 }
 
-.pun table h3,
-.pun table p {
+.pun table h3,.pun table p {
     padding: 0
 }
 
-.pun p.warntext,
-.pun span.warntext {
+.pun p.warntext,.pun span.warntext {
     font-weight: 700
 }
 
-.pun .postmsg p,
-.pun .usercontent p {
+.pun .postmsg p,.pun .usercontent p {
     padding: .75em 0
 }
 
-.pun .postmsg ul,
-.pun .usercontent ul {
+.pun .postmsg ul,.pun .usercontent ul {
     padding: .75em 1em .75em 2.5em;
     list-style: disc
 }
 
-.pun .postmsg ol,
-.pun .usercontent ol {
+.pun .postmsg ol,.pun .usercontent ol {
     padding: .75em 1em .75em 2.5em;
     list-style: decimal
 }
 
-.pun .postmsg ol.alpha,
-.pun .usercontent ol.alpha {
+.pun .postmsg ol.alpha,.pun .usercontent ol.alpha {
     list-style: lower-alpha
 }
 
-.pun .postmsg li ol,
-.pun .postmsg li ul,
-.pun .usercontent li ol,
-.pun .usercontent li ul {
+.pun .postmsg li ol,.pun .postmsg li ul,.pun .usercontent li ol,.pun .usercontent li ul {
     padding: .25em 1em .75em 2.5em
 }
 
-.pun .postmsg li p,
-.pun .usercontent li p {
+.pun .postmsg li p,.pun .usercontent li p {
     padding: 0
 }
 
@@ -214,9 +151,7 @@ span.closedtext {
     padding: .75em 0 0 0
 }
 
-.pun .usercontent h4,
-.pun .usercontent h5,
-.pun .usercontent h6 {
+.pun .usercontent h4,.pun .usercontent h5,.pun .usercontent h6 {
     font-size: 1em;
     font-weight: 700;
     padding: .75em 0 0 0
@@ -232,25 +167,21 @@ span.closedtext {
     text-decoration: underline
 }
 
-.pun del,
-.pun span.bbs {
+.pun del,.pun span.bbs {
     text-decoration: line-through
 }
 
-#punhelp samp ins,
-.pun .postmsg ins {
+#punhelp samp ins,.pun .postmsg ins {
     text-decoration: none
 }
 
-#punhelp h5,
-.pun div.postmsg h5 {
+#punhelp h5,.pun div.postmsg h5 {
     font-size: 1.1em;
     font-weight: 700;
     padding: .75em 0 0 0
 }
 
-body,
-html {
+body,html {
     margin: 0;
     padding: 0
 }
@@ -262,10 +193,7 @@ html {
     padding: 12px 20px
 }
 
-#pundb_update,
-#puninstall,
-#punmaint,
-#punredirect {
+#pundb_update,#puninstall,#punmaint,#punredirect {
     margin: 50px 20% 12px 20%
 }
 
@@ -277,21 +205,15 @@ html {
     padding-top: 0
 }
 
-#announce,
-#brdstats {
+#announce,#brdstats {
     margin: 12px 0 12px 0
 }
 
-#postreview,
-.pun .block,
-.pun .block2col,
-.pun .blockform,
-.pun .blocktable {
+#postreview,.pun .block,.pun .block2col,.pun .blockform,.pun .blocktable {
     margin-bottom: 12px
 }
 
-#punindex .blocktable,
-.pun .blockpost {
+#punindex .blocktable,.pun .blockpost {
     margin-bottom: 6px
 }
 
@@ -299,13 +221,11 @@ html {
     margin-bottom: -1px
 }
 
-.pun .block2col .block,
-.pun .block2col .blockform {
+.pun .block2col .block,.pun .block2col .blockform {
     margin-bottom: 0
 }
 
-.pun .linksb,
-.pun .linkst {
+.pun .linksb,.pun .linkst {
     margin-top: -12px
 }
 
@@ -323,8 +243,7 @@ html {
     border-radius: 4px
 }
 
-.pun .block .inbox,
-.pun .blockmenu .inbox {
+.pun .block .inbox,.pun .blockmenu .inbox {
     padding: 3px 6px
 }
 
@@ -332,7 +251,7 @@ html {
     font-size: 1.8em;
     font-weight: 400;
     padding: 3px 0 0 0;
-    font-family: Raleway, Verdana
+    font-family: Raleway,Verdana
 }
 
 #brdtitle h1 a {
@@ -348,13 +267,11 @@ html {
     margin-right: 12px
 }
 
-#brdmenu a:link,
-#brdmenu a:visited {
+#brdmenu a:link,#brdmenu a:visited {
     text-decoration: none
 }
 
-#brdmenu a:active,
-#brdmenu a:hover {
+#brdmenu a:active,#brdmenu a:hover {
     text-decoration: underline
 }
 
@@ -371,8 +288,7 @@ html {
     padding: 8px 6px 3px 6px
 }
 
-.pun .linksb,
-.pun .postlinksb {
+.pun .linksb,.pun .postlinksb {
     padding: 3px 6px 8px 6px
 }
 
@@ -399,8 +315,7 @@ html {
     white-space: nowrap
 }
 
-.pun .modbuttons,
-.pun .postlink {
+.pun .modbuttons,.pun .postlink {
     float: right;
     text-align: right
 }
@@ -414,13 +329,11 @@ html {
     margin-left: 6px
 }
 
-.pun .postlink a:link,
-.pun .postlink a:visited {
+.pun .postlink a:link,.pun .postlink a:visited {
     text-decoration: none
 }
 
-.pun .postlink a:active,
-.pun .postlink a:hover {
+.pun .postlink a:active,.pun .postlink a:hover {
     text-decoration: underline
 }
 
@@ -461,8 +374,7 @@ html {
     text-align: right
 }
 
-#onlinelist dd,
-#onlinelist dt {
+#onlinelist dd,#onlinelist dt {
     display: inline
 }
 
@@ -477,15 +389,13 @@ html {
     table-layout: fixed
 }
 
-.pun td,
-.pun th {
+.pun td,.pun th {
     padding: 4px 6px;
     text-align: left;
     font-weight: 400
 }
 
-.pun tbody td,
-.pun tbody th {
+.pun tbody td,.pun tbody th {
     border-style: solid none none solid;
     border-width: 1px
 }
@@ -495,9 +405,7 @@ html {
     width: auto
 }
 
-.pun .tc2,
-.pun .tc3,
-.pun .tcmod {
+.pun .tc2,.pun .tc3,.pun .tcmod {
     width: 10%;
     text-align: center;
     padding: 4px
@@ -527,8 +435,7 @@ html {
     font-size: .917em
 }
 
-.pun .tcl span.newtext,
-.pun .tcl span.pagestext {
+.pun .tcl span.newtext,.pun .tcl span.pagestext {
     white-space: nowrap;
     font-weight: 400
 }
@@ -615,8 +522,7 @@ html {
     vertical-align: middle
 }
 
-.pun .blockform form,
-.pun .fakeform {
+.pun .blockform form,.pun .fakeform {
     PADDING: 20px 20px 15px 20px
 }
 
@@ -682,8 +588,7 @@ html {
     width: 75%
 }
 
-.pun .txtarea textarea,
-.pun input.longinput {
+.pun .txtarea textarea,.pun input.longinput {
     width: 100%
 }
 
@@ -753,8 +658,7 @@ html {
     padding-bottom: 1px
 }
 
-.pun .block2col .block,
-.pun .block2col .blockform {
+.pun .block2col .block,.pun .block2col .blockform {
     margin-left: 14em
 }
 
@@ -768,13 +672,11 @@ html {
     font-weight: 700
 }
 
-.pun .blockmenu a:link,
-.pun .blockmenu a:visited {
+.pun .blockmenu a:link,.pun .blockmenu a:visited {
     text-decoration: none
 }
 
-.pun .blockmenu a:active,
-.pun .blockmenu a:hover {
+.pun .blockmenu a:active,.pun .blockmenu a:hover {
     text-decoration: underline
 }
 
@@ -824,13 +726,11 @@ html {
     background-color: #303030
 }
 
-.pun .blockpost h2 a:link,
-.pun .blockpost h2 a:visited {
+.pun .blockpost h2 a:link,.pun .blockpost h2 a:visited {
     text-decoration: none
 }
 
-.pun .blockpost h2 a:active,
-.pun .blockpost h2 a:hover {
+.pun .blockpost h2 a:active,.pun .blockpost h2 a:hover {
     text-decoration: underline
 }
 
@@ -847,8 +747,7 @@ html {
     overflow: hidden
 }
 
-.pun .postfootleft,
-.pun .postleft {
+.pun .postfootleft,.pun .postleft {
     float: left;
     width: 18em;
     position: relative;
@@ -859,13 +758,11 @@ html {
     padding: 6px
 }
 
-.pun .postleft .icon,
-.pun .postleft .usercontacts {
+.pun .postleft .icon,.pun .postleft .usercontacts {
     margin-top: 6px
 }
 
-.pun .postleft .postavatar,
-.pun .postleft .usertitle {
+.pun .postleft .postavatar,.pun .postleft .usertitle {
     margin-bottom: 6px;
     display: block
 }
@@ -875,18 +772,15 @@ html {
     font-weight: 700
 }
 
-.pun .blockpost dt a:link,
-.pun .blockpost dt a:visited {
+.pun .blockpost dt a:link,.pun .blockpost dt a:visited {
     text-decoration: none
 }
 
-.pun .blockpost dt a:active,
-.pun .blockpost dt a:hover {
+.pun .blockpost dt a:active,.pun .blockpost dt a:hover {
     text-decoration: underline
 }
 
-.pun .postfootright,
-.pun .postright {
+.pun .postfootright,.pun .postright {
     border-left-width: 18em;
     border-left-style: solid
 }
@@ -899,8 +793,7 @@ html {
     padding: 0 6px
 }
 
-.pun .multidelete,
-.pun .postfootright {
+.pun .multidelete,.pun .postfootright {
     text-align: right
 }
 
@@ -915,10 +808,7 @@ html {
     font-size: 11px
 }
 
-.pun .postfootleft p,
-.pun .postfootright div,
-.pun .postfootright p,
-.pun .postfootright ul {
+.pun .postfootleft p,.pun .postfootright div,.pun .postfootright p,.pun .postfootright ul {
     padding: 10px 6px 5px 6px
 }
 
@@ -934,13 +824,11 @@ html {
     content: ""
 }
 
-.pun .postfootright a:link,
-.pun .postfootright a:visited {
+.pun .postfootright a:link,.pun .postfootright a:visited {
     text-decoration: none
 }
 
-.pun .postfootright a:active,
-.pun .postfootright a:hover {
+.pun .postfootright a:active,.pun .postfootright a:hover {
     text-decoration: underline
 }
 
@@ -1007,8 +895,7 @@ html {
     margin: 7px .5em 7px 0
 }
 
-.pun .postmsg .postimg a:link img,
-.pun .postmsg .postimg a:visited img {
+.pun .postmsg .postimg a:link img,.pun .postmsg .postimg a:visited img {
     border-style: solid;
     border-width: 2px
 }
@@ -1051,10 +938,7 @@ html {
     text-align: center
 }
 
-#brdfooter dl a,
-#brdwelcome,
-div.blockmenu li,
-div.rbox input {
+#brdfooter dl a,#brdwelcome,div.blockmenu li,div.rbox input {
     line-height: 1.4em
 }
 
@@ -1068,10 +952,7 @@ div.rbox input {
     border-style: none
 }
 
-.pun .inbox thead .tc2,
-.pun .inbox thead .tc3,
-.pun .inbox thead .tcl,
-.pun .inbox thead .tcr {
+.pun .inbox thead .tc2,.pun .inbox thead .tc3,.pun .inbox thead .tcl,.pun .inbox thead .tcr {
     border-bottom: 1px solid #95b806
 }
 
@@ -1082,7 +963,7 @@ body {
 
 .punwrap {
     background-color: #131311;
-    padding: 20px 20px !important;
+    padding: 20px 20px!important;
     border-radius: 4px
 }
 
@@ -1098,26 +979,17 @@ body {
     background-color: #383838
 }
 
-#adminconsole fieldset td,
-#adstats dd,
-#brdfooter #modcontrols,
-#postpreview,
-#viewprofile dd,
-.pun .blockmenu .box,
-.pun .forminfo,
-.pun td.tc2,
-.pun td.tc3,
-.pun td.tcmod {
+#adminconsole fieldset td,#adstats dd,#brdfooter #modcontrols,#postpreview,#viewprofile dd,.pun .blockmenu .box,.pun .forminfo,.pun td.tc2,.pun td.tc3,.pun td.tcmod {
     background-color: #303030
 }
 
 .pun h2 {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
-    background-image: -webkit-linear-gradient(top, #343433 0, #272726 100%);
-    background-image: -o-linear-gradient(top, #343433 0, #272726 100%);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#343433), to(#272726));
-    background-image: linear-gradient(to bottom, #343433 0, #272726 100%);
+    background-image: -webkit-linear-gradient(top,#343433 0,#272726 100%);
+    background-image: -o-linear-gradient(top,#343433 0,#272726 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#343433),to(#272726));
+    background-image: linear-gradient(to bottom,#343433 0,#272726 100%);
     background-repeat: repeat-x;
     border-top: 1px solid #4f4f4d;
     border-right: 1px solid #4f4f4d;
@@ -1144,8 +1016,7 @@ body {
     color: #60a0dc
 }
 
-#posterror li strong,
-.pun .blockmenu li.isactive a {
+#posterror li strong,.pun .blockmenu li.isactive a {
     color: #d4d4d4
 }
 
@@ -1154,25 +1025,19 @@ body {
     color: #d4d4d4
 }
 
-.pun input,
-.pun select,
-.pun textarea {
+.pun input,.pun select,.pun textarea {
     background-color: #212122;
     color: #ccc;
     border: 1px solid #3e3e3e
 }
 
-.pun input:hover,
-.pun select:hover {
+.pun input:hover,.pun select:hover {
     background-color: #1b1b1b;
     border-color: #444;
     color: #aaa
 }
 
-.pun input:disabled,
-.pun input:disabled:hover,
-.pun select:disabled,
-.pun select:disabled:hover {
+.pun input:disabled,.pun input:disabled:hover,.pun select:disabled,.pun select:disabled:hover {
     opacity: .5;
     background-color: #1b1b1b;
     color: #ccc;
@@ -1180,14 +1045,12 @@ body {
     border: 1px solid #3e3e3e
 }
 
-.pun input:focus,
-.pun select:focus {
+.pun input:focus,.pun select:focus {
     outline: 0;
     border-color: #666
 }
 
-.pun .checklist,
-.pun .multiselect {
+.pun .checklist,.pun .multiselect {
     color: #d4d4d4
 }
 
@@ -1203,28 +1066,19 @@ body {
     background-color: #1d1d1c
 }
 
-.pun .roweven:hover,
-.pun .rowodd:hover {
+.pun .roweven:hover,.pun .rowodd:hover {
     background-color: #20201f
 }
 
-.pun .blockpost .box,
-.pun .deletemsg,
-.pun .postfootright,
-.pun .postright {
+.pun .blockpost .box,.pun .deletemsg,.pun .postfootright,.pun .postright {
     background-color: #383838
 }
 
-.pun .postfootright,
-.pun .postright {
+.pun .postfootright,.pun .postright {
     border-left-color: #424242
 }
 
-.pun .blockpost label,
-.pun .codebox,
-.pun .postfootleft,
-.pun .postleft,
-.pun .quotebox {
+.pun .blockpost label,.pun .codebox,.pun .postfootleft,.pun .postleft,.pun .quotebox {
     background-color: #424242
 }
 
@@ -1236,8 +1090,7 @@ body {
     color: #a19e96
 }
 
-#punhelp samp ins,
-.pun .postmsg ins {
+#punhelp samp ins,.pun .postmsg ins {
     background-color: #ff0
 }
 
@@ -1254,8 +1107,7 @@ body {
     border-top: none
 }
 
-#brdfooter #modcontrols,
-.pun td {
+#brdfooter #modcontrols,.pun td {
     border-color: #333
 }
 
@@ -1267,77 +1119,52 @@ body {
     border-color: #606060
 }
 
-#adminconsole td,
-#adminconsole th {
+#adminconsole td,#adminconsole th {
     border-color: #383838
 }
 
-.pun .blockpost label,
-.pun .codebox,
-.pun .deletemsg,
-.pun .forminfo,
-.pun .quotebox {
+.pun .blockpost label,.pun .codebox,.pun .deletemsg,.pun .forminfo,.pun .quotebox {
     border-color: #606060
 }
 
-.pun a:link,
-.pun a:visited {
+.pun a:link,.pun a:visited {
     color: #60a0dc;
     text-decoration: none
 }
 
-.pun a:active,
-.pun a:focus,
-.pun a:hover {
+.pun a:active,.pun a:focus,.pun a:hover {
     color: #80d6ff
 }
 
-.pun .postmsg .postimg a:link img,
-.pun .postmsg .postimg a:visited img {
+.pun .postmsg .postimg a:link img,.pun .postmsg .postimg a:visited img {
     border-color: #60a0dc
 }
 
-.pun .postmsg .postimg a:active img,
-.pun .postmsg .postimg a:focus img,
-.pun .postmsg .postimg a:hover img {
+.pun .postmsg .postimg a:active img,.pun .postmsg .postimg a:focus img,.pun .postmsg .postimg a:hover img {
     border-color: #80d6ff
 }
 
-#brdmenu a:link,
-#brdmenu a:visited,
-.pun h2 a:link,
-.pun h2 a:visited {
+#brdmenu a:link,#brdmenu a:visited,.pun h2 a:link,.pun h2 a:visited {
     color: #d4d4d4
 }
 
-#brdmenu a:active,
-#brdmenu a:hover,
-.pun h2 a:active,
-.pun h2 a:hover {
+#brdmenu a:active,#brdmenu a:hover,.pun h2 a:active,.pun h2 a:hover {
     color: #d4d4d4
 }
 
-.pun .iclosed td.tcl a:link,
-.pun .iclosed td.tcl a:visited,
-.pun .postreport a:link,
-.pun .postreport a:visited {
+.pun .iclosed td.tcl a:link,.pun .iclosed td.tcl a:visited,.pun .postreport a:link,.pun .postreport a:visited {
     color: #888
 }
 
-.pun .iclosed td.tcl a:active,
-.pun .iclosed td.tcl a:hover,
-.pun .postreport a:active,
-.pun .postreport a:hover {
+.pun .iclosed td.tcl a:active,.pun .iclosed td.tcl a:hover,.pun .postreport a:active,.pun .postreport a:hover {
     color: #aaa
 }
 
-.pun .maintenancelink a:link,
-.pun .maintenancelink a:visited {
+.pun .maintenancelink a:link,.pun .maintenancelink a:visited {
     color: #ff4000
 }
 
-.pun .maintenancelink a:active,
-.pun .maintenancelink a:hover {
+.pun .maintenancelink a:active,.pun .maintenancelink a:hover {
     color: #ff5010
 }
 
@@ -1397,7 +1224,6 @@ body {
     font-weight: 700
 }
 
-
 .pun .notice-bar {
     background-color: #572e86;
     color: #856404;
@@ -1427,8 +1253,7 @@ body {
     font-weight: 400
 }
 
-#payment table.aligntop th,
-#paymenttable.aligntop td {
+#payment table.aligntop th,#paymenttable.aligntop td {
     vertical-align: top
 }
 
@@ -1446,7 +1271,7 @@ body {
 }
 
 .contains-error {
-    border: 1px solid #ba2323 !important
+    border: 1px solid #ba2323!important
 }
 
 nav {
@@ -1465,10 +1290,10 @@ nav {
     position: relative;
     min-height: 50px;
     border-radius: 4px;
-    background-image: -webkit-linear-gradient(top, #303030 0, #151515 100%);
-    background-image: -o-linear-gradient(top, #303030 0, #151515 100%);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#303030), to(#151515));
-    background-image: linear-gradient(to bottom, #303030 0, #151515 100%);
+    background-image: -webkit-linear-gradient(top,#303030 0,#151515 100%);
+    background-image: -o-linear-gradient(top,#303030 0,#151515 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#303030),to(#151515));
+    background-image: linear-gradient(to bottom,#303030 0,#151515 100%);
     background-repeat: repeat-x
 }
 
@@ -1492,9 +1317,7 @@ nav {
     border-right: 1px solid #161616
 }
 
-.gs-navbar li.active>a,
-.gs-navbar li.active>a:focus,
-.gs-navbar li.active>a:hover {
+.gs-navbar li.active>a,.gs-navbar li.active>a:focus,.gs-navbar li.active>a:hover {
     color: #fff;
     cursor: default
 }
@@ -1508,7 +1331,7 @@ nav {
     transition: color .5s ease;
     position: relative;
     display: block;
-    font-family: Impact, sans-serif;
+    font-family: Impact,sans-serif;
     font-size: 18pt;
     padding-top: 20px;
     padding-bottom: 15px;
@@ -1525,12 +1348,12 @@ nav {
     padding: 0;
     margin: 0;
     background: #1e5799;
-    background: -moz-linear-gradient(left, #1e5799 0, #f300ff 50%, #e0ff00 100%);
-    background: -webkit-gradient(linear, left top, right top, color-stop(0, #1e5799), color-stop(50%, #f300ff), color-stop(100%, #e0ff00));
-    background: -webkit-linear-gradient(left, #1e5799 0, #f300ff 50%, #e0ff00 100%);
-    background: -o-linear-gradient(left, #1e5799 0, #f300ff 50%, #e0ff00 100%);
-    background: -ms-linear-gradient(left, #1e5799 0, #f300ff 50%, #e0ff00 100%);
-    background: linear-gradient(to right, #1e5799 0, #f300ff 50%, #e0ff00 100%);
+    background: -moz-linear-gradient(left,#1e5799 0,#f300ff 50%,#e0ff00 100%);
+    background: -webkit-gradient(linear,left top,right top,color-stop(0,#1e5799),color-stop(50%,#f300ff),color-stop(100%,#e0ff00));
+    background: -webkit-linear-gradient(left,#1e5799 0,#f300ff 50%,#e0ff00 100%);
+    background: -o-linear-gradient(left,#1e5799 0,#f300ff 50%,#e0ff00 100%);
+    background: -ms-linear-gradient(left,#1e5799 0,#f300ff 50%,#e0ff00 100%);
+    background: linear-gradient(to right,#1e5799 0,#f300ff 50%,#e0ff00 100%);
     height: 2px;
     border-bottom: 1px solid #000
 }
@@ -1571,22 +1394,19 @@ nav {
     background-image: url(/static/img/cat_plist.png)
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width: 800px) {
     .postmsg iframe {
-        max-width: 100%;
+        max-width:100%;
         height: auto
     }
 }
 
-@media only screen and (max-width:600px) {
-
-    .pun .postfootright,
-    .pun .postright {
-        border-left-width: 0
+@media only screen and (max-width: 600px) {
+    .pun .postfootright,.pun .postright {
+        border-left-width:0
     }
 
-    .pun .postfootleft,
-    .pun .postleft {
+    .pun .postfootleft,.pun .postleft {
         display: none
     }
 
@@ -1597,8 +1417,7 @@ nav {
         margin-left: 0
     }
 
-    .pun .blockpost .postleft .postavatar,
-    .pun .blockpost:not(.liker) .postleft dd {
+    .pun .blockpost .postleft .postavatar,.pun .blockpost:not(.liker) .postleft dd {
         display: none
     }
 
@@ -1607,12 +1426,10 @@ nav {
     }
 
     .punwrap {
-        padding: 0 !important
+        padding: 0!important
     }
 
-    .pun #profile input,
-    .pun #profile select,
-    .pun #profile textarea {
+    .pun #profile input,.pun #profile select,.pun #profile textarea {
         width: 100%;
         max-width: 350px
     }
@@ -1625,8 +1442,7 @@ nav {
         display: none
     }
 
-    .pun .block2col .block,
-    .pun .block2col .blockform {
+    .pun .block2col .block,.pun .block2col .blockform {
         margin-left: 0;
         width: 100%;
         clear: both
@@ -1640,9 +1456,7 @@ nav {
         border-width: 0
     }
 
-    .pun .blockmenu a,
-    .pun .blockmenu a:link,
-    .pun .blockmenu a:visited {
+    .pun .blockmenu a,.pun .blockmenu a:link,.pun .blockmenu a:visited {
         padding: 7px;
         margin: 5px 5px 0 0
     }
