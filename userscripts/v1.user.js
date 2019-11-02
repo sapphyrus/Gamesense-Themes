@@ -2,6 +2,7 @@
 // @name         Custom Gamesense Themes
 // @namespace    https://gamesense.pub/forums/*
 // @author       Nexxed
+// @version      1.0.0
 // @match        https://gamesense.pub/forums/*
 // ==/UserScript==
 
