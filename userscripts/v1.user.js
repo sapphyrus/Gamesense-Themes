@@ -73,14 +73,16 @@ var hoverColors = {
 
     addCSS(`https://rawcdn.githack.com/Nexxed/Gamesense-Themes/9cf89320bce7e659ebbf754c55ae991868948595/themes/${theme}.css`, true);
 
-    for (var i = 0; i < Object.keys(colors).length; i++) {
-        if (i == 0 || i == 2 || i == 5 || i == 7 || i == 8) {
-            addCSS(`.pun .usergroup-${i + 1} { font-weight: 700; color: ${colors[Object.keys(colors)[i]]}; }`, false);
-            addCSS(`.pun a:hover.usergroup-${i + 1} { font-weight: 700; color: ${hoverColors[Object.keys(hoverColors)[i]]}; }`, false);
-        }
-        else {
-            addCSS(`.pun .usergroup-${i + 1} { color: ${colors[Object.keys(colors)[i]]}; }`, false);
-            addCSS(`.pun a:hover.usergroup-${i + 1} { color: ${hoverColors[Object.keys(hoverColors)[i]]}; }`, false);
+    if (replaceColors) {
+        for (var i = 0; i < Object.keys(colors).length; i++) {
+            if (i == 0 || i == 2 || i == 5 || i == 7 || i == 8) {
+                addCSS(`.pun .usergroup-${i + 1} { font-weight: 700; color: ${colors[Object.keys(colors)[i]]}; }`, false);
+                addCSS(`.pun a:hover.usergroup-${i + 1} { font-weight: 700; color: ${hoverColors[Object.keys(hoverColors)[i]]}; }`, false);
+            }
+            else {
+                addCSS(`.pun .usergroup-${i + 1} { color: ${colors[Object.keys(colors)[i]]}; }`, false);
+                addCSS(`.pun a:hover.usergroup-${i + 1} { color: ${hoverColors[Object.keys(hoverColors)[i]]}; }`, false);
+            }
         }
     }
 })();
