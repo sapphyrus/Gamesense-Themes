@@ -2,17 +2,25 @@ html, body {
     background: #151515 !important;
 }
 
+/* removes/hides the top header from the page */
 .gs-navbar, .gs-divider {
     display: none;
 }
 
+/* changes the premium red colour to gamesense green */
 .pun .usergroup-5 {
     color: #95b806 !important;
 }
 
+/* removes the border around the forum content */
 .punwrap {
     padding: 0 !important;
     background-color: transparent !important;
+}
+
+/* fixes labels within fieldsets from breaking a new line */
+.pun label {
+    white-space: nowrap;
 }
 
 .pun h2 {
@@ -25,6 +33,11 @@ html, body {
 .pun .box {
     background: #252525 !important;
     border-color: #353535 !important;
+}
+
+/* fixes the weird-looking blank space on some posts */
+.blockpost > .box {
+    background: #383838 !important;
 }
 
 .pun .block .inbox, .pun .blockmenu .inbox {
