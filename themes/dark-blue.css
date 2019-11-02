@@ -13,8 +13,8 @@ html, body {
     background-color: transparent !important;
 }
 
-/* fixes labels within fieldsets from breaking a new line */
-.pun label {
+/* fixes labels within fieldsets and thread names from breaking a new line */
+.pun label, .pun .tcr {
     white-space: nowrap;
 }
 
