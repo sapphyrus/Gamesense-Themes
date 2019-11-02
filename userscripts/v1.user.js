@@ -4,6 +4,8 @@
 // @author       Nexxed
 // @version      1.0.2
 // @match        https://gamesense.pub/forums/*
+// @run-at       document-start
+// @require      http://code.jquery.com/jquery-3.4.1.min.js
 // ==/UserScript==
 
 // this is where you can edit which theme to use within the repository
