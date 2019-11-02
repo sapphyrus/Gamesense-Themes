@@ -87,6 +87,11 @@ html, body {
     border-width: 5px;
 }
 
+#shout label {
+    padding: 10px;
+    font-size: 1.1em;
+}
+
 #shout .rowEven, #shout .rowOdd {
     background-color: #252530 !important;
     padding: 5px 5px 5px 5px !important;
