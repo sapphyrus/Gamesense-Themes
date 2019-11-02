@@ -56,7 +56,7 @@ var postedByColor = "#b4e61e";
         document.getElementsByTagName("head")[0].appendChild(style);
     }
 
-    addCSS(`https://rawcdn.githack.com/Nexxed/Gamesense-Themes/9cf89320bce7e659ebbf754c55ae991868948595/themes/${theme}.css`, true);
+    addCSS(`https://rawcdn.githack.com/Nexxed/Gamesense-Themes/fc348c086bb36eb78265772d07ebe9e8e9bff59b/themes/${theme}.css`, true);
 
     if (replaceColors) {
         for (var i = 0; i < Object.keys(colors).length; i++) {
