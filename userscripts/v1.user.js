@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Custom Gamesense Themes
 // @namespace    https://gamesense.pub/forums/*
-// @author       Nexxed
+// @author       Nexxed AnonVodka
 // @version      1.0.5
 // @match        https://gamesense.pub/forums/*
 // ==/UserScript==
