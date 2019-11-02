@@ -37,7 +37,7 @@ html, body {
 }
 
 .pun .inbox thead .tc2, .pun .inbox thead .tc3, .pun .inbox thead .tcl, .pun .inbox thead .tcr {
-    border-bottom: 1px solid #353535;
+    border-bottom: 2px solid #95b806;
     background: #353535;
     color: #aaa;
     padding: 10px;
