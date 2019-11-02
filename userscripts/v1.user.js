@@ -27,6 +27,6 @@ var theme = "dark";
     style.rel = "stylesheet";
     style.type = "text/css";
     //                                                                 this id will be updated and all that
-    style.href = `https://rawcdn.githack.com/Nexxed/Gamesense-Themes/ded6f4d4ffc85cc0946d26ec9b9491b2027bbe4c/themes/${theme}.css`;
+    style.href = `https://rawcdn.githack.com/Nexxed/Gamesense-Themes/9cf89320bce7e659ebbf754c55ae991868948595/themes/${theme}.css`;
     document.getElementsByTagName("head")[0].appendChild(style);
 })();
