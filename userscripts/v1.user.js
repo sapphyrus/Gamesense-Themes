@@ -2,7 +2,7 @@
 // @name         Custom Gamesense Themes
 // @namespace    https://gamesense.pub/forums/*
 // @author       Nexxed
-// @version      1.0.3
+// @version      1.0.4
 // @match        https://gamesense.pub/forums/*
 // @run-at       document-start
 // @require      http://code.jquery.com/jquery-3.4.1.min.js
@@ -29,6 +29,6 @@ var theme = "dark";
     style.rel = "stylesheet";
     style.type = "text/css";
     //                                                                 this id will be updated and all that
-    style.href = `https://rawcdn.githack.com/Nexxed/Gamesense-Themes/9cf89320bce7e659ebbf754c55ae991868948595/themes/${theme}.css`;
+    style.href = `https://rawcdn.githack.com/Nexxed/Gamesense-Themes/fc348c086bb36eb78265772d07ebe9e8e9bff59b/themes/${theme}.css`;
     document.getElementsByTagName("head")[0].appendChild(style);
 })();
