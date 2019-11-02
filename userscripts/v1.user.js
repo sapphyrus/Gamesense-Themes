@@ -2,7 +2,7 @@
 // @name         Custom Gamesense Themes
 // @namespace    https://gamesense.pub/forums/*
 // @author       Nexxed
-// @version      1.0.2
+// @version      1.0.3
 // @match        https://gamesense.pub/forums/*
 // @run-at       document-start
 // @require      http://code.jquery.com/jquery-3.4.1.min.js
