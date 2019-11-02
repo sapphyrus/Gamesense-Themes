@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Custom Gamesense Themes
 // @namespace    https://gamesense.pub/forums/*
-// @author       Nexxed AnonVodka
-// @version      1.0.5
+// @author       Nexxed & AnonVodka
+// @version      1.0.6
 // @match        https://gamesense.pub/forums/*
 // @run-at       document-start
 // @require      http://code.jquery.com/jquery-3.4.1.min.js
