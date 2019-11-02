@@ -9,6 +9,7 @@
 // this is where you can edit which theme to use within the repository
 // if you want to use the dark.css theme, enter "dark"
 // otherwise, use the file name without the css extension (important)
+// See available themes here: https://github.com/Nexxed/Gamesense-Themes/tree/master/themes
 var theme = "dark";
 
 (function () {
