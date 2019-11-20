@@ -2,10 +2,10 @@
 // @name Custom Gamesense Themes
 // @namespace https://gamesense.pub/forums/*
 // @author Nexxed & AnonVodka
-// @version 1.0.8
+// @version 1.0.9
 // @match https://gamesense.pub/forums/*
 // @run-at document-start
-// @require http://code.jquery.com/jquery-3.4.1.min.js
+// @require https://code.jquery.com/jquery-3.4.1.min.js
 // @require  https://gist.github.com/raw/2625891/waitForKeyElements.js
 // @grant GM_setValue
 // @grant GM_getValue
@@ -15,6 +15,16 @@
 // if you want to use the dark.css theme, enter "dark"
 // otherwise, use the file name without the css extension (important)
 // See available themes here: https://github.com/Nexxed/Gamesense-Themes/tree/master/themes
+
+var userGroups = {
+    1: "Administrator",
+    2: "Moderator",
+    3: "Member",
+    5: "Premium",
+    6: "Banned",
+    7: "Lua Moderator",
+    8: "Community Moderator"
+}
 
 var defaultColors = {
     "1 normal": "#b4e61e",
@@ -251,6 +261,9 @@ function addSettingsMenu(isIndex) {
                     <br>
                     <input type='checkbox' id='toggleBetterLinks'>
                     <label for='toggleBetterLinks'>Open post links in new tab</label>
+                    <br>
+                    <input type='checkbox' id='toggleGroupLegend'>
+                    <label for='toggleGroupLegend'>Display usergroup legend</label>
                     <select id='customTheme'>
                         <option value='dark'>Dark</option>
                         <option value='dark-blue'>Dark blue</option>
@@ -332,8 +345,8 @@ function addSettingsMenu(isIndex) {
             addCSS(css, false, "forummottoCSS");
     }
 
-    function betterLinks(a) {
-        if (a) {
+    function betterLinks(enable) {
+        if (enable) {
             $(".blockpost .box .inbox .postbody .postright .postmsg a, div.postsignature.postmsg a").each(function () {
                 // ignore usergroup links
                 for (var i = 0; i < 10; i++)
@@ -342,6 +355,29 @@ function addSettingsMenu(isIndex) {
                 // make them open in a new tab when clicked
                 $(this).attr("target", "_blank");
             })
+        } else {
+            $(".blockpost .box .inbox .postbody .postright .postmsg a, div.postsignature.postmsg a").each(function () {
+                // ignore usergroup links
+                for (var i = 0; i < 10; i++)
+                    if ($(this).hasClass(`usergroup-${i}`)) return;
+
+                // make them open in a new tab when clicked
+                $(this).removeAttr("target");
+            })
+        }
+    }
+
+    function groupLegend(enable) {
+        if (enable && $("#onlinelist")[0]) {
+            // initialize
+            $("#onlinelist").parent().append($(`<dl class="clearb" id="grouplegend"><dt style="display: contents"><strong>Groups: </strong></dt></dl>`));
+
+            for(var i = 1; i < 10; i++)
+                if(userGroups[i])
+                    $("#grouplegend").append($(`<dd style="display: contents"><span class="usergroup-${i}">${userGroups[i]}</span>, </dd>`));
+
+            var e = $("#grouplegend").children().last();
+            $(e).html($(e).html().slice(0, $(e).html().length-2));
         } else {
             $(".blockpost .box .inbox .postbody .postright .postmsg a, div.postsignature.postmsg a").each(function () {
                 // ignore usergroup links
@@ -405,6 +441,7 @@ function addSettingsMenu(isIndex) {
 
     var toggleCustomTheme = document.getElementById("toggleCustomTheme");
     var toggleBetterLinks = document.getElementById("toggleBetterLinks");
+    var toggleGroupLegend = document.getElementById("toggleGroupLegend");
     var customTheme = document.getElementById("customTheme");
     var customCSS = document.getElementById("customCSS");
     var forumMotto = document.getElementById("forumMotto");
@@ -436,6 +473,10 @@ function addSettingsMenu(isIndex) {
     toggleBetterLinks.onclick = function () {
         GM_setValue('toggleBetterLinks', toggleBetterLinks.checked);
         betterLinks(GM_getValue('toggleBetterLinks'));
+    };
+    toggleGroupLegend.onclick = function () {
+        GM_setValue('toggleGroupLegend', toggleGroupLegend.checked);
+        groupLegend(GM_getValue('toggleGroupLegend'));
     };
 
     customTheme.onchange = function () {
@@ -523,12 +564,14 @@ function addSettingsMenu(isIndex) {
 
     toggleCustomTheme.checked = GM_getValue('toggleCustomTheme') || false;
     toggleBetterLinks.checked = GM_getValue('toggleBetterLinks') || false;
+    toggleGroupLegend.checked = GM_getValue('toggleGroupLegend') || false;
     customTheme.value = GM_getValue('customTheme') || "";
     customCSS.value = GM_getValue("customCSSLink") || "";
     forumMotto.value = GM_getValue("forumMotto") || "";
     forumMottoCSS.value = GM_getValue("forumMottoCSS") || "";
 
     betterLinks(toggleBetterLinks.checked);
-    loadUsergroupColors()
+    groupLegend(toggleGroupLegend.checked);
+    loadUsergroupColors();
     changeShoutboxSize();
 })();
