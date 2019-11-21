@@ -412,7 +412,7 @@ function addSettingsMenu(isIndex) {
         await new Promise(r => setTimeout(r, 0));
     }
 
-    $($($(".pun #brdwelcome ul li")[2]).children()[0]).append(` • <a href="#" id="open_settings">Custom theme settings</a>`)
+    $($($(".pun #brdwelcome ul.conl li").last()).children()[0]).append(` • <a href="#" id="open_settings">Custom theme settings</a>`)
 
     function loadUsergroupColors() {
         $("#colorsTab > input[type=text]").each(function (idx, b) {
